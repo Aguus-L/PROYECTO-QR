@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contenedor-padre {
+  width: 275px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  height: auto;
+}
+
+.contenedor-hijo {
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.titulo {
+  color: hsl(218, 44%, 22%);
+}
+
+.parrafo {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+}
